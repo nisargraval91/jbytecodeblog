@@ -3,17 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hello, World!</title>
+  <title>Blog Layout</title>
   <!-- Bootstrap CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Ads -->
+  <!-- Replace the following script with your Google Ads script -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-xxxxxxxxxxxxxx",
+      enable_page_level_ads: true
+    });
+  </script>
 </head>
 <body>
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <h1 class="mt-5 text-center">Hello, World!</h1>
+    <!-- Header -->
+    <header class="my-4">
+      <h1 class="text-center">My Blog</h1>
+    </header>
+
+    <!-- Main Content -->
+    <div class="row">
+      <!-- Blog Post -->
+      <div class="col-md-8">
+        <div class="card mb-4">
+          <img src="https://via.placeholder.com/800x400" class="card-img-top" alt="Blog Image">
+          <div class="card-body">
+            <h2 class="card-title">Blog Post Title</h2>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod pharetra urna, in suscipit elit tincidunt ac.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+
+        <!-- Video -->
+        <div class="card mb-4">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+          </div>
+          <div class="card-body">
+            <h2 class="card-title">Video Title</h2>
+            <p class="card-text">Watch this amazing video!</p>
+            <a href="#" class="btn btn-primary">Watch More Videos</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">About Me</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+
+        <!-- Google Ads -->
+        <div class="card mb-4">
+          <div class="card-body">
+            <!-- Replace the following div with your Google Ads code -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-xxxxxxxxxxxxxx"
+                 data-ad-slot="xxxxxxxxxx"
+                 data-ad-format="auto"></ins>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+
+  <!-- Google Ads Script -->
+  <!-- Replace the following script with your Google Ads script -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-xxxxxxxxxxxxxx",
+      enable_page_level_ads: true
+    });
+  </script>
 </body>
 </html>
